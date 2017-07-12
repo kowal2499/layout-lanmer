@@ -1,0 +1,95 @@
+
+// navbar ogólnie
+
+.navbar {
+    border: none;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+.navbar-nav a {
+    color: $text;
+}
+
+.nav>li {
+    transition: all 0.4s;
+}
+.nav>li>a {
+    position: relative;
+    transition: all 0.4s;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+.nav>li>a:focus {
+    background-color: transparent;
+}
+
+
+// ==============================
+// vertical
+
+.vert {
+    background-image: url('../../img/swirl_pattern.png');
+    background-repeat: repeat;
+    background-color: $white;
+    border-bottom: 2px solid #000;
+    
+    img {
+        display: block;
+        background-color: $white;
+        margin: 0px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .nav>li:hover {
+        background-color: rgba(38, 208, 206, 0.3);
+        color: black;      
+    }
+
+    .nav>li:hover>a {
+        transform: scale(1.08);
+        -ms-transform: scale(1.08); /* IE 9 */
+        -webkit-transform: scale(1.08); /* Safari */
+        background-color: transparent;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .vert {
+        .navbar-nav {
+            float: none;
+            text-align: center;
+        }
+        .navbar-nav > li {
+            float: none;
+        }
+    }
+}
+
+// ==================================
+// horizontal
+
+#horiz {
+    background-color: $white;
+    height: 53px;
+    border-bottom: 1px solid $text;
+
+    .nav.navbar-nav {
+        float: right;
+    }
+
+    .nav>li>a {
+        border-bottom: 3px solid transparent;
+    }
+
+    .nav>li>a:hover {
+        background-color: rgba(38, 208, 206, 0.3);
+        border-bottom: 3px solid $lightBlue;
+        color: black;
+    }
+
+    
+}
+

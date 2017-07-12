@@ -1,0 +1,16 @@
+#hero {
+
+    position: relative;
+    
+    width: 100%;
+
+    padding-top: 30px;
+    padding-bottom: 120px;
+
+    background: $lightBlue;  /* fallback for old browsers */
+    background: -webkit-linear-gradient($lightBlue, $deepBlue);
+    background: -moz-linear-gradient($lightBlue, $deepBlue);
+    background: -o-linear-gradient($lightBlue, $deepBlue);
+    background: linear-gradient($lightBlue, $deepBlue);
+
+}

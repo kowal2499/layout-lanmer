@@ -1,0 +1,98 @@
+#hero {
+  position: relative;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 120px;
+  background: #26D0CE;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#26D0CE, #1A2980);
+  background: -moz-linear-gradient(#26D0CE, #1A2980);
+  background: -o-linear-gradient(#26D0CE, #1A2980);
+  background: linear-gradient(#26D0CE, #1A2980); }
+
+.navbar {
+  border: none;
+  margin-bottom: 0px;
+  border-radius: 0px; }
+
+.navbar-nav a {
+  color: #444; }
+
+.nav > li {
+  transition: all 0.4s; }
+
+.nav > li > a {
+  position: relative;
+  transition: all 0.4s;
+  font-variant: small-caps;
+  font-size: 18px; }
+
+.nav > li > a:focus {
+  background-color: transparent; }
+
+.vert {
+  background-image: url("../../img/swirl_pattern.png");
+  background-repeat: repeat;
+  background-color: #fff;
+  border-bottom: 2px solid #000; }
+  .vert img {
+    display: block;
+    background-color: #fff;
+    margin: 0px;
+    padding: 20px;
+    width: 100%; }
+  .vert .nav > li:hover {
+    background-color: rgba(38, 208, 206, 0.3);
+    color: black; }
+  .vert .nav > li:hover > a {
+    transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    /* IE 9 */
+    -webkit-transform: scale(1.08);
+    /* Safari */
+    background-color: transparent; }
+
+@media (min-width: 768px) {
+  .vert .navbar-nav {
+    float: none;
+    text-align: center; }
+  .vert .navbar-nav > li {
+    float: none; } }
+#horiz {
+  background-color: #fff;
+  height: 53px;
+  border-bottom: 1px solid #444; }
+  #horiz .nav.navbar-nav {
+    float: right; }
+  #horiz .nav > li > a {
+    border-bottom: 3px solid transparent; }
+  #horiz .nav > li > a:hover {
+    background-color: rgba(38, 208, 206, 0.3);
+    border-bottom: 3px solid #26D0CE;
+    color: black; }
+
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6em;
+  font-weight: 400; }
+
+section#body {
+  position: relative;
+  top: -90px;
+  background-color: #fff;
+  padding: 20px; }
+  section#body article {
+    margin: 30px 15px; }
+
+footer {
+  min-height: 120px;
+  background-color: #1A2980; }
+  footer article {
+    position: relative;
+    top: -90px;
+    background-color: #fff;
+    margin: 0px 5px 15px 5px;
+    padding: 30px; }
+
+/*# sourceMappingURL=main.css.map */
